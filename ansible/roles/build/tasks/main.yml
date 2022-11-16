@@ -6,7 +6,7 @@
 #  shell: npm install /var/lib/jenkins/workspace/devops
 #buid project
 - name: build app
-  shell: ng build --prod
+  shell: npm run build --prod
 
 
 
