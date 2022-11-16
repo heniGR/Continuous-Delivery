@@ -1,0 +1,8 @@
+---
+# tasks file for docker-registry
+   - name : connect to docker hub
+     command : docker login -u 6uno -p heniineh50891
+   - name : adding tag to image 
+     command : docker tag devops:latest 6uno/devops:latest
+   - name : push image to dockerhub 
+     command : docker push 6uno/devops:latest
