@@ -2,4 +2,4 @@
    - name : connect to docker hub
      command : docker login -u 6uno -p dckr_pat_CSUUnqHj4y9JgiyP-d9q6U2gNJ0
    - name : push image to dockerhub 
-     command : docker push 6uno/devops:latest
+     command : docker push 6uno/myapp:latest
