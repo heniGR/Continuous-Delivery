@@ -4,7 +4,7 @@ pipeline{
      //   maven 'M2_HOME'
        //   }
     stages {
-        stage('Pulling') {
+        stage('Pulling from git and buildin dist') {
         	steps{
         	
         	git branch: 'main',
